@@ -263,6 +263,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/redwood/proprietary/vendor/firmware/vpu20_1v.b17:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_1v.b17 \
     vendor/xiaomi/redwood/proprietary/vendor/firmware/vpu20_1v.b18:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_1v.b18 \
     vendor/xiaomi/redwood/proprietary/vendor/firmware/vpu20_1v.b19:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_1v.b19 \
+    vendor/xiaomi/redwood/proprietary/vendor/firmware/vpu20_1v.elf:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_1v.elf \
+    vendor/xiaomi/redwood/proprietary/vendor/firmware/vpu20_1v.lst:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_1v.lst \
     vendor/xiaomi/redwood/proprietary/vendor/firmware/vpu20_1v.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_1v.mbn \
     vendor/xiaomi/redwood/proprietary/vendor/firmware/vpu20_1v.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_1v.mdt \
     vendor/xiaomi/redwood/proprietary/vendor/firmware/vpu20_1v_unsigned.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_1v_unsigned.mbn \

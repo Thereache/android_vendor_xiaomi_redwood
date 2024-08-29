@@ -576,8 +576,11 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/redwood/proprietary/vendor/lib64/libmialgo_video_seg.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmialgo_video_seg.so \
     vendor/xiaomi/redwood/proprietary/vendor/lib64/libmialgoengine.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmialgoengine.so \
     vendor/xiaomi/redwood/proprietary/vendor/lib64/libmibokeh_855.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmibokeh_855.so \
+    vendor/xiaomi/redwood/proprietary/vendor/lib64/libmicuttlefish_fs.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmicuttlefish_fs.so \
+    vendor/xiaomi/redwood/proprietary/vendor/lib64/libmicuttlefish_utils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmicuttlefish_utils.so \
     vendor/xiaomi/redwood/proprietary/vendor/lib64/libmiphone_capture_bokeh.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmiphone_capture_bokeh.so \
     vendor/xiaomi/redwood/proprietary/vendor/lib64/libmiphone_preview_bokeh.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmiphone_preview_bokeh.so \
+    vendor/xiaomi/redwood/proprietary/vendor/lib64/libmivsock_utils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmivsock_utils.so \
     vendor/xiaomi/redwood/proprietary/vendor/lib64/libmm-color-convertor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmm-color-convertor.so \
     vendor/xiaomi/redwood/proprietary/vendor/lib64/libmmcamera_bestats.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmmcamera_bestats.so \
     vendor/xiaomi/redwood/proprietary/vendor/lib64/libmmcamera_cac3.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmmcamera_cac3.so \

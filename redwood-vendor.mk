@@ -272,6 +272,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/redwood/proprietary/vendor/lib64/libdisplayfeatureservice.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdisplayfeatureservice.so \
     vendor/xiaomi/redwood/proprietary/vendor/lib64/libmi-stc-HW-modulate.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmi-stc-HW-modulate.so \
     vendor/xiaomi/redwood/proprietary/vendor/lib64/vendor.xiaomi.hardware.displayfeature@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.xiaomi.hardware.displayfeature@1.0.so \
+    vendor/xiaomi/redwood/proprietary/product/etc/device_features/redwood.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/device_features/redwood.xml \
+    vendor/xiaomi/redwood/proprietary/product/etc/device_features/redwoodin.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/device_features/redwoodin.xml
 
 PRODUCT_PACKAGES += \
     libcamxexternalformatutils \

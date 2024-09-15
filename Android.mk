@@ -6,22 +6,4 @@ LOCAL_PATH := $(call my-dir)
 
 ifeq ($(TARGET_DEVICE),redwood)
 
-$(call add-radio-file-sha1-checked,radio/abl.img,88f491e6619251c107d61bb4e753136ff390b29e)
-$(call add-radio-file-sha1-checked,radio/aop.img,ee89a07fd619003429aa681ad2482ffabf006334)
-$(call add-radio-file-sha1-checked,radio/bluetooth.img,28c28b0ae8fd8bfd234bdb838e3cfadf00a88305)
-$(call add-radio-file-sha1-checked,radio/cpucp.img,b09f17746cb0e6850935f7483004de1d66cb379c)
-$(call add-radio-file-sha1-checked,radio/devcfg.img,5d6de04deac3eb852aedff143c8828ce2110d2e7)
-$(call add-radio-file-sha1-checked,radio/dsp.img,c21e6e8bf124b76385a8f00c14baf084e9623352)
-$(call add-radio-file-sha1-checked,radio/featenabler.img,cfb1f7f60503d4bff9673380e8e67e47b6ba84a2)
-$(call add-radio-file-sha1-checked,radio/hyp.img,0d30d3f415f9c1da04e961e247e9dfe74e4a1812)
-$(call add-radio-file-sha1-checked,radio/imagefv.img,976b81bcbcce2aa63bc3f8143ec3019cb42bc823)
-$(call add-radio-file-sha1-checked,radio/keymaster.img,7b61e383d09575db3d995385dcb4feb0de0bd381)
-$(call add-radio-file-sha1-checked,radio/modem.img,e3c2866f0ec9a684514fd1461ddd1cf7bad735fd)
-$(call add-radio-file-sha1-checked,radio/qupfw.img,d61bf3f44cbd88305eecff8aef1c636cbefcd9a7)
-$(call add-radio-file-sha1-checked,radio/shrm.img,3b5f10fa2df7120f78e1e8435d3b5f96d2eeb8ca)
-$(call add-radio-file-sha1-checked,radio/tz.img,ae35c7b22fb177c6d49dd46fcf2837f19f17746d)
-$(call add-radio-file-sha1-checked,radio/uefisecapp.img,65a2380f70856eee86c59d9fe513e95fcad75ca1)
-$(call add-radio-file-sha1-checked,radio/xbl.img,f73fbe278e1e9278326ba66409bfc472d80a6861)
-$(call add-radio-file-sha1-checked,radio/xbl_config.img,f76fd38484ed88410a5e200db9317a14f36ae470)
-
 endif

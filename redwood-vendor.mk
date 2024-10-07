@@ -6,10 +6,6 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/xiaomi/redwood
 
 PRODUCT_COPY_FILES += \
-    vendor/xiaomi/redwood/proprietary/system/etc/permissions/vendor.xiaomi.hardware.misys-V1.0-java-permission.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/vendor.xiaomi.hardware.misys-V1.0-java-permission.xml \
-    vendor/xiaomi/redwood/proprietary/system/etc/permissions/vendor.xiaomi.hardware.misys-V2.0-java-permission.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/vendor.xiaomi.hardware.misys-V2.0-java-permission.xml \
-    vendor/xiaomi/redwood/proprietary/system/etc/permissions/vendor.xiaomi.hardware.misys-V4.0-java-permission.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/vendor.xiaomi.hardware.misys-V4.0-java-permission.xml \
-    vendor/xiaomi/redwood/proprietary/system/etc/permissions/vendor.xiaomi.hardware.misys.V3_0-permission.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/vendor.xiaomi.hardware.misys.V3_0-permission.xml \
     vendor/xiaomi/redwood/proprietary/vendor/etc/acdbdata/Forte/Forte_Bluetooth_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Forte/Forte_Bluetooth_cal.acdb \
     vendor/xiaomi/redwood/proprietary/vendor/etc/acdbdata/Forte/Forte_Codec_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Forte/Forte_Codec_cal.acdb \
     vendor/xiaomi/redwood/proprietary/vendor/etc/acdbdata/Forte/Forte_General_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Forte/Forte_General_cal.acdb \
@@ -114,10 +110,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/redwood/proprietary/vendor/etc/init/vendor.sensors.qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.sensors.qti.rc \
     vendor/xiaomi/redwood/proprietary/vendor/etc/init/vendor.sensors.sscrpcd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.sensors.sscrpcd.rc \
     vendor/xiaomi/redwood/proprietary/vendor/etc/init/vendor.xiaomi.hardware.citsensorservice@1.1-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.xiaomi.hardware.citsensorservice@1.1-service.rc \
-    vendor/xiaomi/redwood/proprietary/vendor/etc/init/vendor.xiaomi.hardware.misys@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.xiaomi.hardware.misys@1.0-service.rc \
-    vendor/xiaomi/redwood/proprietary/vendor/etc/init/vendor.xiaomi.hardware.misys@2.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.xiaomi.hardware.misys@2.0-service.rc \
-    vendor/xiaomi/redwood/proprietary/vendor/etc/init/vendor.xiaomi.hardware.misys@3.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.xiaomi.hardware.misys@3.0-service.rc \
-    vendor/xiaomi/redwood/proprietary/vendor/etc/init/vendor.xiaomi.hardware.misys@4.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.xiaomi.hardware.misys@4.0-service.rc \
     vendor/xiaomi/redwood/proprietary/vendor/etc/libnfc-nci.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nci.conf \
     vendor/xiaomi/redwood/proprietary/vendor/etc/libnfc-nxp.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nxp.conf \
     vendor/xiaomi/redwood/proprietary/vendor/etc/libnfc-nxp_RF.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nxp_RF.conf \
@@ -272,20 +264,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/redwood/proprietary/vendor/lib64/camera/fdconfigvideolite.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/fdconfigvideolite.bin
 
 PRODUCT_PACKAGES += \
-    libmisys_jni.xiaomi \
-    vendor.xiaomi.hardware.misys@1.0 \
-    vendor.xiaomi.hardware.misys@2.0 \
-    vendor.xiaomi.hardware.misys@3.0 \
-    vendor.xiaomi.hardware.misys@4.0 \
-    vendor.xiaomi.hardware.misys@1.0-impl \
-    vendor.xiaomi.hardware.misys@2.0-impl \
-    vendor.xiaomi.hardware.misys@3.0-impl \
-    vendor.xiaomi.hardware.misys@4.0-impl \
     libcamxexternalformatutils \
-    vendor.xiaomi.hardware.misys@1.0 \
-    vendor.xiaomi.hardware.misys@2.0 \
-    vendor.xiaomi.hardware.misys@3.0 \
-    vendor.xiaomi.hardware.misys@4.0 \
     audio.primary.lahaina \
     liba2dpoffload \
     libacdb-fts \
@@ -484,7 +463,6 @@ PRODUCT_PACKAGES += \
     libcapiv2svarnn \
     libcapiv2vop \
     libceres \
-    libcheckpid \
     libchilog \
     libcom.qti.chinodeutils \
     libcom.xiaomi.debug \
@@ -505,7 +483,6 @@ PRODUCT_PACKAGES += \
     libipebpsstriping170 \
     libjpege \
     libloadalgo_stub \
-    liblogwrap_vendor \
     libmctfengine_stub \
     libmiStereoFactoryRemapBasicLib \
     libmiXmlParser \
@@ -522,11 +499,8 @@ PRODUCT_PACKAGES += \
     libmialgo_video_seg \
     libmialgoengine \
     libmibokeh_855 \
-    libmicuttlefish_fs \
-    libmicuttlefish_utils \
     libmiphone_capture_bokeh \
     libmiphone_preview_bokeh \
-    libmivsock_utils \
     libmm-color-convertor \
     libmmcamera_bestats \
     libmmcamera_cac3 \
@@ -637,21 +611,9 @@ PRODUCT_PACKAGES += \
     misound_karaokemix_res \
     misound_res_headphone \
     misound_res_spk \
-    vendor.xiaomi.hardware.misys-V1.0-java \
-    vendor.xiaomi.hardware.misys-V2.0-java \
-    vendor.xiaomi.hardware.misys-V4.0-java \
-    vendor.xiaomi.hardware.misys.V3_0 \
     vendor.xiaomi.hardware.citsensorservice@1.1-service.xml \
-    vendor.xiaomi.hardware.misys@1.0.xml \
-    vendor.xiaomi.hardware.misys@2.0.xml \
-    vendor.xiaomi.hardware.misys@3.0.xml \
-    vendor.xiaomi.hardware.misys@4.0.xml \
     batterysecret \
     vendor.xiaomi.hardware.citsensorservice@1.1-service \
-    vendor.xiaomi.hardware.misys@1.0-service \
-    vendor.xiaomi.hardware.misys@2.0-service \
-    vendor.xiaomi.hardware.misys@3.0-service \
-    vendor.xiaomi.hardware.misys@4.0-service \
     init.qcom.sensors \
     loadalgo \
     sensors.qti \
